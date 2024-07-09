@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPersonsequencer", "Test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTodoSequencer", "TestTodoSequencer\TestTodoSequencer.csproj", "{A3139745-9169-4BD1-8BBB-AB08D9C2F9C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPeopleservice", "TestPeopleservice\TestPeopleservice.csproj", "{5245C08A-7228-429F-BCFD-8EF04FD5C826}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{A3139745-9169-4BD1-8BBB-AB08D9C2F9C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3139745-9169-4BD1-8BBB-AB08D9C2F9C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3139745-9169-4BD1-8BBB-AB08D9C2F9C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5245C08A-7228-429F-BCFD-8EF04FD5C826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5245C08A-7228-429F-BCFD-8EF04FD5C826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5245C08A-7228-429F-BCFD-8EF04FD5C826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5245C08A-7228-429F-BCFD-8EF04FD5C826}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
