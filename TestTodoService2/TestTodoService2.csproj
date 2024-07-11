@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="6.0.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+    <PackageReference Include="xunit" Version="2.5.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestPeopleservice\TestPeopleservice.csproj" />
+    <ProjectReference Include="..\TestPerson.cs\TestPerson.cs.csproj" />
+    <ProjectReference Include="..\TestPersonsequencer\TestPersonsequencer.csproj" />
+    <ProjectReference Include="..\TestTodo1\TestTodo1.csproj" />
+    <ProjectReference Include="..\TestTodoSequencer\TestTodoSequencer.csproj" />
+    <ProjectReference Include="..\TestTodoService\TestTodoService.csproj" />
+    <ProjectReference Include="..\Todo\Todo.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+</Project>

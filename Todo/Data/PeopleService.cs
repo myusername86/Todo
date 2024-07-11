@@ -42,5 +42,16 @@ namespace Todo.Data
         {
             people = new Person[0];
         }
+
+        //Method to person by id
+        public bool Remove(int personId)
+        {
+            int index=Array.FindIndex(people,p=>p.Id == personId);
+            if(index<0) return false;
+            var tempList = people.ToList();
+            tempList.RemoveAt(index);
+            people=tempList.ToArray();
+            return true;
+        }
     }
 }
